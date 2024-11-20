@@ -164,6 +164,12 @@ hr {
 }
 
 @media (min-width: 800px) {
+	.grid-continer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		padding: 20px;
+
 	.header_pub-info {
 		flex-direction: row;
 		justify-content: space-between;
@@ -181,4 +187,5 @@ hr {
 		border-radius: 0.6rem;
 		margin: 0;
 	}
+}
 }
