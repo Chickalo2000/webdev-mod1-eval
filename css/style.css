@@ -169,6 +169,7 @@ hr {
 		grid-template-columns: 1fr 1fr;
 		gap: 20px;
 		padding: 20px;
+	}
 
 	.header_pub-info {
 		flex-direction: row;
@@ -187,5 +188,4 @@ hr {
 		border-radius: 0.6rem;
 		margin: 0;
 	}
-}
 }
